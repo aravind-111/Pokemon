@@ -1,34 +1,39 @@
 body {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
-    background-color: white;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  .container_pok {
-    width: 15rem;
-    line-height: 0.5;
-    height: 15rem;
-    border: 2px solid white;
-    box-shadow: 10px 10px 10px 0 grey;
-    border-radius: 5px;   
-  }
+  background-color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
-  .container_pok:nth-child(odd) {
-    background: rgb(160, 238, 146);
-  }
+.container_pok {
+  width: 15rem;
+  line-height: 0.5;
+  height: 15rem;
+  border: 2px solid white;
+  box-shadow: 10px 10px 10px 0 grey;
+  border-radius: 5px;
+}
 
-  .container_pok:nth-child(even) {
-    background: rgb(144, 230, 241);
-  }
+.container_pok:nth-child(odd) {
+  background: rgb(160, 238, 146);
+}
+
+.container_pok:nth-child(even) {
+  background: rgb(144, 230, 241);
+}
 
 .text {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .pic {
-    margin-left: 4rem;
-    width: 5rem;
-    display: relative;
+  margin-left: 4rem;
+  width: 5rem;
+  display: relative;
+}
+
+.whole_container {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
